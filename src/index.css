@@ -1,3 +1,5 @@
+@import url('https://rsms.me/inter/inter.css');
+
 * {
   box-sizing: border-box;
 }
@@ -9,9 +11,30 @@ body,
   height: 100%;
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 body {
-  background: #f0f0f0;
+  overscroll-behavior-y: none;
+  font-family: 'Inter var', sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  color: black;
+  background: #FFFFFF;
 }
 
+a {
+  pointer-events: all;
+  color: black;
+  text-decoration: none;
+}
+
+svg {
+  fill: black;
+}
+
+h1 {
+  background: linear-gradient(30deg, black, grey);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

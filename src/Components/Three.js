@@ -2,27 +2,17 @@ import React, { useRef } from "react";
 import { Canvas, useFrame } from "react-three-fiber";
 import * as THREE from "three";
 
-function Box(props) {
-    const meshRef = useRef();
-    useFrame(() => {
-      meshRef.current.rotation.x += 0.01;
-      meshRef.current.rotation.y += 0.01;
-    });
-    
-    return (
-      <mesh {...props} ref={meshRef}>
-        <boxBufferGeometry args={[3, 3, 3]} /> {/*change the size*/}
-        <meshStandardMaterial color="hotpink" /> {/*change the color*/}
-      </mesh>
-    );
-  }
 
 export default function Scene() {
   return (
     <Canvas>
-      <ambientLight intensity={0.5} />
-      <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
-      <Box position={[0, 0, 0]} />
-    </Canvas>
+    <pointLight position={[10, 10, 10]} />
+    <mesh visible userData={{ hello: 'world' }} position={[1, 2, 3]} rotation={[Math.PI / 2, 0, 0]}>
+  <sphereGeometry args={[1, 16, 16]} />
+  <meshStandardMaterial color="hotpink" transparent />
+</mesh>
+
+  </Canvas>
+
   );
 }
