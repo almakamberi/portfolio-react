@@ -3,12 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@headlessui/react": "^1.7.14",
+    "@heroicons/react": "^2.0.17",
+    "@react-spring/three": "^9.7.2",
+    "@react-three/drei": "^9.66.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "cannon-es": "^0.20.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-native-3d-model-view": "^1.2.0",
     "react-scripts": "5.0.1",
+    "react-spring": "^9.7.1",
+    "react-three-fiber": "^6.0.13",
+    "tailwindcss": "^3.3.2",
+    "three": "^0.152.2",
+    "three-stdlib": "^2.21.10",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
