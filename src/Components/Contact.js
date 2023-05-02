@@ -26,9 +26,6 @@ export default function Contact() {
               respond as soon as I can.
             </p>
             <div className="mt-8">
-              <a href="" className="text-2xl font-bold text-pink-600">
-                049112997
-              </a>
               <address className="mt-2 not-italic">Prishtine</address>
             </div>
           </div>
