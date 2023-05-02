@@ -9,7 +9,7 @@ function App() {
 return(
 <div>
 <Home />
-<Work />
+
 <Timeline />
 <Contact />
 <Footer />
