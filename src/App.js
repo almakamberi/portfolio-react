@@ -1,21 +1,27 @@
-import React, { useEffect, useState } from 'react';
+import React, { Component } from 'react';
 import Home from './Components/Home';
-import Work from './Components/Work';
 import Timeline from './Components/Timeline';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
+import Cookies from './Components/Cookies';
+import Work from './Components/Work';
 
-function App() {
-return(
-<div>
-<Home />
+class App extends Component {
+  componentDidMount() {
+    document.title = 'Gjin Prelvukaj - Portfolio';
+  }
 
-<Timeline />
-<Contact />
-<Footer />
-</div>
-);
-
+  render() {
+    return (
+      <div>
+        <Cookies />
+        <Home />
+        <Timeline />
+        <Contact />
+        <Footer />
+      </div>
+    );
+  }
 }
 
 export default App;
