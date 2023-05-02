@@ -1,12 +1,21 @@
 module.exports = {
     mode: 'jit',
     purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
-    darkMode: false, // or 'media' or 'class'
+    darkMode: 'false', // or 'media' or 'class'
     theme: {
-      extend: {},
+      extend: {
+        height: {
+          '128': '128rem',
+          '64': '53rem',
+        }
+      },
     },
     variants: {
       extend: {},
     },
-    plugins: [],
+    plugins: [
+      require('flowbite/plugin'),
+    ],
   }
+
+  
