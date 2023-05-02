@@ -23,10 +23,7 @@ export default function Cookies() {
 
           <p className="mt-4 text-sm text-gray-600 dark:text-gray-300">We use cookies to ensure that we give you the best experience on our website. <a href="#" className="text-blue-500 hover:underline">Read cookies policies</a>.</p>
 
-          <div className="flex items-center justify-between mt-4 gap-x-4 shrink-0">
-            <button className="text-xs text-gray-800 underline transition-colors duration-300 dark:text-white dark:hover:text-gray-400 hover:text-gray-600 focus:outline-none">
-              Manage your preferences
-            </button>
+          <div className="flex items-center justify-center mt-4 gap-x-4 shrink-0">
 
             <button onClick={handleAccept} className="text-xs bg-gray-900 font-medium rounded-lg hover:bg-gray-700 text-white px-4 py-2.5 duration-300 transition-colors focus:outline-none">
               Accept
