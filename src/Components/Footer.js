@@ -35,7 +35,7 @@ export default function Footer() {
           </li>
         </ul>
         <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
-          © 2021-2022{" "}
+          © 2023-2023{" "}
           <a href="#" class="hover:underline">
             Gjin Prelvukaj
           </a>

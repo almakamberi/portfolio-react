@@ -37,9 +37,9 @@ export default function Home() {
               </a>
             </nav>
             <button class="flex flex-col ml-4 lg:hidden">
-              <span class="w-6 h-1 mb-1 bg-gray-800 dark:gb-white"></span>
-              <span class="w-6 h-1 mb-1 bg-gray-800 dark:gb-white"></span>
-              <span class="w-6 h-1 mb-1 bg-gray-800 dark:gb-white"></span>
+              <span class="w-6 h-1 mb-1 bg-gray-800 dark:gb-white"> w</span>
+              <span class="w-6 h-1 mb-1 bg-gray-800 dark:gb-white">w </span>
+              <span class="w-6 h-1 mb-1 bg-gray-800 dark:gb-white">w</span>
             </button>
           </div>
         </div>
