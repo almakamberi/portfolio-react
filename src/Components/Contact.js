@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Success from "./Success";
-import '../tailwind.css'
+import "../tailwind.css";
 
 export default function Contact() {
   const [showSuccessMessage, setShowSuccessMessage] = useState(false);
@@ -14,20 +14,11 @@ export default function Contact() {
   }
 
   return (
-    <section className="bg-white" id="contact">
+    <section className="bg-white my-44 -mb-10" id="contact">
       <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 ">
-        <p className="text-5xl md:text-6xl" style={{ marginLeft: "35%", marginBottom: "2%" }}>
-          Contact me
-        </p>
         <div className="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
           <div className="lg:col-span-2 lg:py-12">
-            <p className="max-w-xl text-lg">
-              If you want to get in touch with me, you can leave your information here and I will
-              respond as soon as I can.
-            </p>
-            <div className="mt-8">
-              <address className="mt-2 not-italic">Prishtine</address>
-            </div>
+            <p className="text-5xl md:text-6xl mt-44">Contact me</p>
           </div>
           <div className="rounded-lg bg-white p-8 shadow-lg lg:col-span-3 lg:p-12">
             <form onSubmit={handleFormSubmit} className="space-y-4">
@@ -88,12 +79,8 @@ export default function Contact() {
             </form>
           </div>
         </div>
-        
       </div>
-      <div>
-      {showSuccessMessage && <Success />}
-     </div>
+      <div>{showSuccessMessage && <Success />}</div>
     </section>
-    
   );
 }

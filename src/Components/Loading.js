@@ -26,7 +26,7 @@ function LoadingScreen() {
     >
       <img
         src={box}
-        alt="My logo"
+        alt=""
         style={{
           backgroundColor: "#FFF",
           width: "50%",

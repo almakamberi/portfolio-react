@@ -1,11 +1,12 @@
-import React, { Component } from 'react';
-import Home from './Components/Home';
-import Timeline from './Components/Timeline';
-import Contact from './Components/Contact';
-import Footer from './Components/Footer';
-import Cookies from './Components/Cookies';
-import GitHub from './Components/Github';
-import Loading from './Components/Loading';
+import React, { Component } from "react";
+import Home from "./Components/Home";
+import Timeline from "./Components/Timeline";
+import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
+import Cookies from "./Components/Cookies";
+import GitHub from "./Components/Github";
+import Loading from "./Components/Loading";
+import Skills from "./Components/Skills";
 
 class App extends Component {
   constructor(props) {
@@ -17,7 +18,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    document.title = 'Gjin Prelvukaj - Portfolio';
+    document.title = "Gjin Prelvukaj - Portfolio";
 
     // Simulate a delay of 2 seconds
     setTimeout(() => {
@@ -47,7 +48,9 @@ class App extends Component {
         <Cookies />
         <Home />
         <Timeline />
+        <Skills />
         <Contact />
+
         <Footer />
       </div>
     );
@@ -55,5 +58,3 @@ class App extends Component {
 }
 
 export default App;
-
-
