@@ -1,6 +1,6 @@
 import "../tailwind.css";
 import React from "react";
-import userimg from "../Images/1.png";
+import userimg from "../Images/2.png";
 export default function Home() {
   return (
     <main
@@ -47,7 +47,7 @@ export default function Home() {
       <div class="relative z-20 flex items-center">
         <div class="container relative flex flex-col items-center justify-between px-6 py-4 mx-auto">
           <div class="flex flex-col">
-            <img src={userimg} class="mx-auto rounded-full w-28" />
+            <img src={userimg} class="mx-auto rounded-full w-30" />
             <p class="my-6 text-3xl text-center dark:text-white">
               Hi, I'm Gjin
             </p>
